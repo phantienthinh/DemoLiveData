@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_demo"
+    app:startDestination="@id/fragmentMain">
+
+    <fragment
+        android:id="@+id/fragmentMain"
+        android:name="com.example.demolivedata.FragmentMain"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_fragmentMain_to_liveDataDefaultFragmet"
+            app:destination="@id/liveDataDefaultFragmet" />
+        <action
+            android:id="@+id/action_fragmentMain_to_transisionFragment"
+            app:destination="@id/transisionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/liveDataDefaultFragmet"
+        android:name="com.example.demolivedata.LiveDataDefault.LiveDataDefaultFragment"
+        android:label="fragment_live_data_default_fragmet"
+        tools:layout="@layout/fragment_live_data_default_fragmet" />
+    <fragment
+        android:id="@+id/transisionFragment"
+        android:name="com.example.demolivedata.TransmationMapFragment"
+        android:label="fragment_transision"
+        tools:layout="@layout/fragment_transision" />
+
+
+</navigation>
