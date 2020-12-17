@@ -1,4 +1,4 @@
-package com.example.demolivedata
+package com.example.demolivedata.tranformMap
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Transformations
@@ -16,7 +16,7 @@ class TranFormMapViewModel : ViewModel() {
     }
 
     init {
-        var i = 1
+        var i = 0
         viewModelScope.launch {
             while (true) {
                 i++

@@ -3,13 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".tranformMap.TransmationMapFragment">
+    tools:context=".singer.Singer3Fragment">
 
-    <TextView
-        android:id="@+id/text1"
-        android:layout_gravity="center"
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:id="@+id/btnShow"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_blank_fragment" />
+        android:text="show_toast" />
 
 </FrameLayout>

@@ -14,7 +14,6 @@ class FragmentMain : Fragment() {
         return inflater.inflate(R.layout.fragment_main, container, false)
     }
 
-
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
@@ -24,6 +23,18 @@ class FragmentMain : Fragment() {
 
         view.findViewById<Button>(R.id.bt2).setOnClickListener {
             findNavController().navigate(R.id.action_fragmentMain_to_transisionFragment)
+        }
+
+        view.findViewById<Button>(R.id.bt3).setOnClickListener {
+            findNavController().navigate(R.id.action_fragmentMain_to_switchMapFragment)
+        }
+
+        view.findViewById<Button>(R.id.bt4).setOnClickListener {
+            findNavController().navigate(R.id.action_fragmentMain_to_mediatorFragment)
+        }
+
+        view.findViewById<Button>(R.id.bt5).setOnClickListener {
+            findNavController().navigate(R.id.action_fragmentMain_to_SInger1Fragment)
         }
     }
 }

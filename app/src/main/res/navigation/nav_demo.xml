@@ -16,6 +16,15 @@
         <action
             android:id="@+id/action_fragmentMain_to_transisionFragment"
             app:destination="@id/transisionFragment" />
+        <action
+            android:id="@+id/action_fragmentMain_to_switchMapFragment"
+            app:destination="@id/switchMapFragment" />
+        <action
+            android:id="@+id/action_fragmentMain_to_mediatorFragment"
+            app:destination="@id/mediatorFragment" />
+        <action
+            android:id="@+id/action_fragmentMain_to_SInger1Fragment"
+            app:destination="@id/SInger1Fragment" />
     </fragment>
     <fragment
         android:id="@+id/liveDataDefaultFragmet"
@@ -24,9 +33,24 @@
         tools:layout="@layout/fragment_live_data_default_fragmet" />
     <fragment
         android:id="@+id/transisionFragment"
-        android:name="com.example.demolivedata.TransmationMapFragment"
+        android:name="com.example.demolivedata.tranformMap.TransmationMapFragment"
         android:label="fragment_transision"
         tools:layout="@layout/fragment_transision" />
+    <fragment
+        android:id="@+id/switchMapFragment"
+        android:name="com.example.demolivedata.swichMap.SwitchMapFragment"
+        android:label="fragment_blank"
+        tools:layout="@layout/fragment_blank" />
+    <fragment
+        android:id="@+id/mediatorFragment"
+        android:name="com.example.demolivedata.mediator.MediatorFragment"
+        android:label="fragment_mediator"
+        tools:layout="@layout/fragment_mediator" />
+    <fragment
+        android:id="@+id/SInger1Fragment"
+        android:name="com.example.demolivedata.singer.SInger1Fragment"
+        android:label="fragment_s_inger1"
+        tools:layout="@layout/fragment_s_inger1" />
 
 
 </navigation>

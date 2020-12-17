@@ -20,5 +20,24 @@
         android:layout_height="wrap_content"/>
 
 
+    <Button
+        android:id="@+id/bt3"
+        android:text="switchMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/bt4"
+        android:text="mediator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/bt5"
+        android:text="singer_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
 
 </LinearLayout>
